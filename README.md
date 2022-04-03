@@ -930,9 +930,8 @@ This step needs to be done for the following environments below:
 - Now, let's try login to gerrit "http://gerrit.swlab.local/" using newly created user "ahosny"
 
 <p align="center">
-<img src="images\new\017-gerrit-signin-ahosny-page.JPG">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/017-gerrit-signin-ahosny-page.JPG" width="800">
 </p>
-
 - After successfull login using "ahosny" user, click on the user avatar on the right side of the page and select Settings to see user's details
 
 <p align="center">
