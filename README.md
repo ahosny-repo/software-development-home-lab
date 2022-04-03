@@ -94,12 +94,11 @@ Open source software stack:
          > For each network interface created and managed by NetworkManager, a configuration file is created inside /etc/sysconfig/network-scripts directory, the name of the file should start with ifcfg- then the network interface name for example 'enp0s3'. Login as a root user and modify the interface configuration file as following by setting your IP Address, Prefix, Gateway and DNS configurations:
          >> $ vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
          >> 
-         >> - BOOTPROTO=none_**
-         >> - IPADDR=192.168.1.X_**
-         >> - PREFIX=24_**
-         >> - GATEWAY=192.168.1.1_**
-         >> - DNS1=192.168.1.36_** // Local DNS Server IP
-         >> - DNS2=X.X.X.X_** // Home network DNS Server IP
+         >> - BOOTPROTO=none
+         >> - IPADDR=192.168.1.X
+         >> - PREFIX=24
+         >> - GATEWAY=192.168.1.1
+         >> - DNS1=192.168.1.36 //DNS Server IP
       2. **_Method#2:_** Using NetworkManager user interface to edit the connection as following:
          1. Login as a root user
          2. Run command "$ nmtui"
