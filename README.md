@@ -1,6 +1,3 @@
-# software-development-home-lab
-Software Development Home Lab: Platform for Java Development and DevOps
-
 # Software Development Home Lab: Platform for Java Development and DevOps
 
    > ##### Docker, Docker-Compose, Bind9 DNS, Nginx Reverse Proxy, MailCow, Git, Gerrit, OpenLDAP, Jenkins, GitLab, MySQL, SonarQube, JFrog Artifactory.
