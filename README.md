@@ -41,13 +41,13 @@ Open source software stack:
 ## System Architecture:
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/000-system-architecture-overview.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/000-system-architecture-overview.jpg" width="800">
 </p>
 
 ## Software Development Process:
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/001-software-development-process.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/001-software-development-process.jpg" width="800">
 </p>
 
 ## Exposed Lab Services:
@@ -107,7 +107,7 @@ Open source software stack:
          5. Set IP Address, Gateway and DNS servers as below screenshot
          6. Save changes and restart NetworkManager "$ systemctl restart NetworkManager"
          <p align="center">
-          <img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/002-networkmanager-edit-connection.jpg">
+          <img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/002-networkmanager-edit-connection.jpg">
          </p>
      
 > **_NOTE: About CentOS_**  
@@ -254,12 +254,12 @@ Open source software stack:
 - Forward "forward.swlab.local" domain entries
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/003-dns-swlab.local-forward-webmin.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/003-dns-swlab.local-forward-webmin.jpg" width="800">
 </p>
 
 - Reveser "reverse.swlab.local" domain entries
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/004-dns-swlab.local-reverser-webmin.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/004-dns-swlab.local-reverser-webmin.jpg" width="800">
 </p>
 > **_NOTE: About BIND9 DNS_**  
 > - Webmin is a web control panel that allows you to administer linux servers like DNS, SSH ...etc. through a simple interface so instead of creating and configuring dns domain names manually you can simply using Webmin to create master/forward/reverser zone and configure name entries.
@@ -395,11 +395,11 @@ This step needs to be done for the following environments below:
 5. Login to mailcow "http://mail.swlab.local/" using admin user
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/005-mailcow-login-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/005-mailcow-login-page.jpg" width="800">
 </p>
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/006-mailcow-home-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/006-mailcow-home-page.jpg" width="800">
 </p>
 6. Create "swlab.local" domain and required mailboxes "emails"
    - From "Configurations" menu on the top from the home page, click "Mail Setup"
@@ -408,7 +408,7 @@ This step needs to be done for the following environments below:
    - Finally, click button "Add domain and restart SOGo" and wait for the domain to be created
    - Now, our domain is added successfully
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/007-mailcow-add-domain-pag.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/007-mailcow-add-domain-pag.jpg" width="800">
 </p>
 7. Create mailboxes "emails" for our software lab
    - From "Configurations" menu on the top from the home page, click "Mail Setup"
@@ -416,17 +416,17 @@ This step needs to be done for the following environments below:
    - Add "gerrit" and "jenkins" mailboxes to our domain "swlab.local"
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/008-mailcow-mailbox-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/008-mailcow-mailbox-page.jpg" width="800">
 </p>
 
 8. Login to webmail "http://mail.swlab.local/SOGo/"
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/009-mailcow-sogo-login-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/009-mailcow-sogo-login-page.jpg" width="800">
 </p>
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/010-mailcow-sogo-gerrit-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/010-mailcow-sogo-gerrit-page.jpg" width="800">
 </p>
 
 > **_NOTE: About Mailcow_**  
@@ -661,7 +661,7 @@ This step needs to be done for the following environments below:
 - Create user and login to portainer 
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/portainer-login-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/portainer-login-page.jpg" width="800">
 </p>
 
 - Add environment to portainer
@@ -676,25 +676,25 @@ This step needs to be done for the following environments below:
   - Repeat the above steps for each environment to add corresponding environment
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/portainer-add-environment-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/portainer-add-environment-page.jpg" width="800">
 </p>
 
 - Portainer Home after adding all environment
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/portainer-home-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/portainer-home-page.jpg" width="800">
 </p>
 
 - Show environment containers
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/portainer-show-environment-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/portainer-show-environment-page.jpg" width="800">
 </p>
 
 - Show containers list
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/portainer-environment-containers-list-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/portainer-environment-containers-list-page.jpg" width="800">
 </p>
 
 ## Part-2: Install, configure and integrate software development tools
@@ -894,36 +894,36 @@ This step needs to be done for the following environments below:
 - Launch gerrit "http://gerrit.swlab.local/"
    
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/011-gerrit-home-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/011-gerrit-home-page.jpg" width="800">
 </p>
 - Click "Sign in" on the right side of the gerrit home page to login to gerrit
 - You will be redirected to "Sign in" page that is actually using ldap for user's authentication
 - If you can see "Sign in" page below, then gerrit is configured successfully to use ldap as authentication provider.
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/012-gerrit-signin-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/012-gerrit-signin-page.jpg" width="800">
 </p>
 8. Configure Gerrit Users in Ldap
 - Launch Ldap Web Admin "http://ldapweb.swlab.local/"
 - Click "login" and enter "cn=admin,dc=example,dc=org" for the "Login DN" and then "ldappassword" password as set in docker-compose file for admin user
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/013-ldap-login-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/013-ldap-login-page.jpg" width="800">
 </p>
 - Click the domain from left side tree and then create child entry 
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/014-ldap-domain-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/014-ldap-domain-page.jpg" width="800">
 </p>
 - Select "Courier Mail: Account" template to create user and enter user details
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/015-ldap-createuser-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/015-ldap-createuser-page.jpg" width="800">
 </p>
 - Commit to save new created user
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/016-ldap-commit-user-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/016-ldap-commit-user-page.jpg" width="800">
 </p>
 
 - Now, let's try login to gerrit "http://gerrit.swlab.local/" using newly created user "ahosny"
@@ -935,17 +935,17 @@ This step needs to be done for the following environments below:
 - After successfull login using "ahosny" user, click on the user avatar on the right side of the page and select Settings to see user's details
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/018-gerrit-login-ahosny-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/018-gerrit-login-ahosny-page.jpg" width="800">
 </p>
 - User settings page in gerrit showing user's details from ldap
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/019-gerrit-ahosny-settings-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/019-gerrit-ahosny-settings-page.jpg" width="800">
 </p>
 - Check and test clone url for "ALL-Projects" repository: "$git clone "http://ahosny@gerrit.swlab.local/a/All-Projects"
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/020-gerrit-clone-all-projects-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/020-gerrit-clone-all-projects-page.jpg" width="800">
 </p>
 
 - Now, all gerrit is set, Congratulations!
@@ -1051,38 +1051,38 @@ This step needs to be done for the following environments below:
   - "docker exec -it jenkins-container cat /var/jenkins_home/secrets/initialAdminPassword"
    
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/021-jenkins-unlock-password-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/021-jenkins-unlock-password-page.jpg" width="800">
 </p>
 
 - Customize jenkins configuration
 - Select "Install suggested plugins"
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/022-jenkins-customize-jenkins-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/022-jenkins-customize-jenkins-page.jpg" width="800">
 </p>
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/023-jenkins-suggested-plugin-install-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/023-jenkins-suggested-plugin-install-page.jpg" width="800">
 </p>
 - Create admin user
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/024-jenkins-create-admin-user-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/024-jenkins-create-admin-user-page.jpg" width="800">
 </p>
 - Configure jenkins url
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/025-jenkins-instance-config-url-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/025-jenkins-instance-config-url-page.jpg" width="800">
 </p>
 - Jenkins home page
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/026-jenkins-home-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/026-jenkins-home-page.jpg" width="800">
 </p>
 - After installations you may be asked to upgrade jenkins to latest version
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/027-jenkins-home-latest-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/027-jenkins-home-latest-page.jpg" width="800">
 </p>
 6. Test and verify SonarQube installation
 
@@ -1090,13 +1090,13 @@ This step needs to be done for the following environments below:
 - Enter default user name and password "admin/admin"
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/028-sonarqube-login-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/028-sonarqube-login-page.jpg" width="800">
 </p>
 - Update default password and save
 - SonarQube home page
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/029-sonarqube-home-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/029-sonarqube-home-page.jpg" width="800">
 </p>
 
 7. Test and verify JFrog Artifactory installation
@@ -1104,31 +1104,31 @@ This step needs to be done for the following environments below:
 - You will be asked to update default password "admin/password"
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/030-artifactory-login-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/030-artifactory-login-page.jpg" width="800">
 </p>
 - JFrog Artifactory welcome page
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/031-artifactory-welcome-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/031-artifactory-welcome-page.jpg" width="800">
 </p>
 - JFrog Artifactory Base URL
   
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/032-artifactory-set-url-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/032-artifactory-set-url-page.jpg" width="800">
 </p>
 - Skip default proxy configuration
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/033-artifactory-default-proxy-skip-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/033-artifactory-default-proxy-skip-page.jpg" width="800">
 </p>
 - Finish configuration
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/034-artifactory-finish-config-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/034-artifactory-finish-config-page.jpg" width="800">
 </p>
 - JFrog Artifactory home page
 
 <p align="center">
-<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/master/images/035-artifactory-home-page.jpg" width="800">
+<img src="https://github.com/ahosny-repo/software-development-home-lab/blob/main/images/035-artifactory-home-page.jpg" width="800">
 </p>
 - Now, Jenkins, SonarQube and JFrog Artifactory are all set. Congratulations!
